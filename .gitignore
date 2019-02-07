@@ -1,0 +1,19 @@
+syntax: glob
+.DS_Store
+*/bin/*
+*.sln
+*.orig
+*.orig.meta
+*.userprefs
+*.csproj
+*.pidb
+*.bak
+*.bak.meta
+*.suo
+
+UIController/Build/
+UIController/Library/
+UIController/Temp/
+UIController/Logs/
+UIController/.vs/
+UIController/obj/Debug/

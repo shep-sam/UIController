@@ -12,7 +12,7 @@ namespace SpaceCore.UIController
         [SerializeField]
         private UIWindow[] screenPrefabs;
 
-        private List<UIWindow> openeedWindows = new List<UIWindow>();
+        private List<UIWindow> openeedWindows = new List<UIWindow>(); //TODO: change to Stack
 
         private void Awake()
         {
